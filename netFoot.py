@@ -58,7 +58,7 @@ def check_shodan(ip, api_key):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("usage: python script.py <domain> [shodan_api_key]")
+        print("usage: python netFoot.py <domain> [shodan_api_key]")
         sys.exit(1)
     
     domain = sys.argv[1]
